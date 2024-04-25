@@ -29,7 +29,7 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="assets/docs/kirti_Takrani_Resume_new.pdf" download>Download CV</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="assets/docs/kirti_cover_letter.pdf" download>Cover Letter</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="assets/docs/cover_Letter_k.pdf" download>Cover Letter</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>
