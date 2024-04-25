@@ -149,7 +149,7 @@ a:hover {
   float: left;
   margin-bottom: 2rem;
 }
-
+/* 
 @media (min-width: 60rem) {
   .row {
     margin-top: 0em;
@@ -163,7 +163,7 @@ a:hover {
   .column {
     margin-left: 1.5rem;
   }
-}
+} */
 
 .card .menu-content {
   list-style-type: none;
