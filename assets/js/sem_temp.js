@@ -24,7 +24,7 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="assets/docs/kirti_takrani_resume.pdf" download>Download CV</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="assets/docs/kirti_Takrani_Resume_new.pdf" download>Download CV</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="assets/docs/kirti_cover_letter.pdf" download>Cover Letter</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">
@@ -247,7 +247,7 @@ const fillData = () => {
   let output = "";
   sem_temp.forEach(
     ({ event_name, event_type, event_image }) =>
-    (output += `
+      (output += `
             <div class="sem_temp_slide" style="background-image: url(assets/images/sem/sem1/${event_image});">
                 <div class="sem_temp_slideBg" style="background-image: url(assets/images/sem/sem1/${event_image});"></div>
                 <div class="sem_temp_slideContent">

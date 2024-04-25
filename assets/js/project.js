@@ -7,7 +7,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "ATM Burglary Detection",
-    cardImage: "assets/images/project-page/quiz.jpg",
+    cardImage: "assets/images/project-page/atm.png",
     description:
       "<li>ATM surveillance system is a technology that detects suspicious activities from live camera feed.</li><li>Worked on collection of datasets of different objects along with their sorting and labeling.</li><li>Developed the architecture to execute the train model along with their weight file with required configuration.</li><li>Regressive test with live feed, video, and photos.</li><li>Store data to server and create alert for the same.</li>",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
@@ -16,7 +16,7 @@ const projects = [
   },
   {
     title: "License Plate Detection",
-    cardImage: "assets/images/project-page/chess.jpg",
+    cardImage: "assets/images/project-page/platedetct.png",
     description:
       "<li>The aim of the project was detection of numbers from License Plate of running motor bikes for non-helmeted motorcyclist.</li><li>In this proposed approach, a single convolutional neural network was deployed to automatically detect the LP of a non-helmeted motorcyclist from the video stream.</li>",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
@@ -25,7 +25,7 @@ const projects = [
   },
   {
     title: "Stock Market Prediction and Analysis",
-    cardImage: "assets/images/project-page/flappybird.png",
+    cardImage: "assets/images/project-page/stock.png",
     description:
       "<li>Developed a stock market prediction and analysis project using machine learning algorithms to predict future stock prices based on historical data.</li><li>Conducted exploratory data analysis to identify potential issues and relationships between various factors and stock prices.</li><li>Tested multiple algorithms and evaluated performance using metrics such as mean squared error and accuracy and came up with the solution that increased the performance of model by 20%.</li><li>Demonstrated a combination of technical skills, domain knowledge, and critical thinking in successfully completing the project.</li>",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
