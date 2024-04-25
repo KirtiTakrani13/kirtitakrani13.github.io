@@ -4,28 +4,41 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
+  // {
+  //   title: "Store Representative and Data Analyst",
+  //   cardImage: "assets/images/experience-page/chainwala.png",
+  //   place: "Chaiwala of London",
+  //   time: "(Oct, 2022 - present)",
+  //   desp: "<li>Managed the POS & CRM system and entered 50+ orders per hour with zero errors.</li><li>Troubleshot data issues and ensured data quality and accuracy by collecting and analyzing data using statistical and computational methods.</li><li>Helped train 10+ new staff to use the technical systems.</li><li>Onboarded & delivered exceptional client service to 200 customers per shift during peak times.</li>",
+  // },
   {
-    title: "Store Representative and Data Analyst",
-    cardImage: "assets/images/experience-page/chainwala.png",
-    place: "Chaiwala of London",
-    time: "(Oct, 2022 - present)",
-    desp: "<li>Managed the POS & CRM system and entered 50+ orders per hour with zero errors.</li><li>Troubleshot data issues and ensured data quality and accuracy by collecting and analyzing data using statistical and computational methods.</li><li>Helped train 10+ new staff to use the technical systems.</li><li>Onboarded & delivered exceptional client service to 200 customers per shift during peak times.</li>",
+    title: "Data Analyst Intern",
+    cardImage: "assets/images/experience-page/target.jpg",
+    place: "Target Park",
+    time: "(June, 2023 - Jan 2024)",
+    desp: "<li>Spearheaded ETL process enhancement on Microsoft Azure for efficient IAM solutions.</li> <li>Led the creation of a catalog for seamless data integration into Cloud Data Platform, supporting Power BI and Cognos.</li> <li>Utilized Azure for ETL process development, ensuring compatibility with IAM principles.</li> <li>Optimized ETL processes and queries, enhancing data integration for Power BI and Cognos.</li> <li>Implemented IAM principles in data extraction, ensuring secure flow into Power BI.</li>",
   },
   {
-    title: "Machine Learning and Python Developer",
+    title: " BI Analyst / Service Management Analyst",
+    cardImage: "assets/images/experience-page/miscos.jpg",
+    place: "Miscos Technology",
+    time: "(Aug 2020 - Aug, 2023)",
+    desp: "<li>Transformed business requirements into IAM-aligned specifications.</li><li>Automated Excel reports using Power BI, meeting IAM-related reporting needs.</li><li>Explored data across SQL Server and Azure DevOps for operational metrics.</li><li>Designed and maintained metrics with IAM principles, enhancing operational efficiency.</li><li>Utilized Power BI gateway for secure integration with on-premise data sources.</li>",
+  },
+  {
+    title: "BI Analyst/Data Analyst",
     cardImage: "assets/images/experience-page/cavyiot.png",
     place: "Cavy IOT",
-    time: "(Sept - June, 2022)",
-    desp: "<li>Worked on developing and implementing machine learning models for data analysis and prediction.</li><li>Analyzed large datasets by collecting, processing, and applying statistical and computational methods while ensuring data quality and accuracy.</li><li>Designed, maintained, and optimized databases and data systems to support data-driven decision-making in collaboration with cross-functional teams.</li><li>Communicated insights and findings through reports and visualizations while developing and deploying software solutions for data analysis and machine learning, and staying current with industry trends and technologies.</li>",
+    time: "(Oct 2019 - June, 2020)",
+    desp: "<li>Transformed business requirements into actionable plans with IAM integration.</li><li>Designed ETL strategies with a focus on IAM principles.</li><li>Developed insightful Tableau dashboards aligned with IAM principles.</li><li>Optimized complex Stored Procedures for data integrity and security.</li><li>Resulted in a robust IAM solution with secure data processing and actionable insights.</li>",
   },
-
 ];
 
 const showCards2 = () => {
   let output = "";
   exp.forEach(
     ({ title, cardImage, place, time, desp }) =>
-    (output += `        
+      (output += `        
     <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
       <div class="card card1">
         <img src="${cardImage}" class="featured-image"/>
@@ -85,7 +98,7 @@ const showCards = () => {
   let output = "";
   volunteershipcards.forEach(
     ({ title, cardImage, description }) =>
-    (output += `        
+      (output += `        
       <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
       
       <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
@@ -215,7 +228,7 @@ const showCards3 = () => {
   let output = "";
   mentor.forEach(
     ({ title, image, subtitle, desp, href }) =>
-    (output += `  
+      (output += `  
       <div class="blog-slider__item swiper-slide">
         <div class="blog-slider__img">
             <img src="${image}" alt="">
